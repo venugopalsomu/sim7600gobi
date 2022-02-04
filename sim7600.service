@@ -1,0 +1,13 @@
+[Unit]
+Description=BridgeThings sim7600 service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+
+WorkingDirectory=/home/pi/sim7600
+ExecStart=/bin/bash /home/pi/sim7600/start.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
