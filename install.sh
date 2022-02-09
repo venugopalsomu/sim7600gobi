@@ -1,5 +1,4 @@
-wget https://github.com/venugopalsomu/sim7600gobi/archive/refs/heads/main.zip
-unzip main.zip
+
 cd sim7600gobi-main/
 cp start.sh ~/sim7600/start.sh
 cp simcom-cm ~/sim7600/simcom-cm
