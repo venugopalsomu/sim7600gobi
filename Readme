@@ -1,1 +1,13 @@
 This is test code for sim7600 gobi driver
+
+
+Procedure:
+
+wget https://github.com/venugopalsomu/sim7600gobi/archive/refs/heads/main.zip
+unzip main.zip
+cd ~/sim7600gobi-main/
+chmod +x install.sh
+./install.sh
+
+crontab -e
+//comment the lines which deals with sim7600, network check
