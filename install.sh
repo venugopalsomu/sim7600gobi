@@ -1,5 +1,5 @@
 
-cd sim7600gobi-main/
+cd ~/sim7600gobi-main/
 cp start.sh ~/sim7600/start.sh
 cp simcom-cm ~/sim7600/simcom-cm
 cp sim7600.service ~/sim7600/
