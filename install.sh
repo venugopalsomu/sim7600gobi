@@ -1,3 +1,4 @@
+sudo apt-get update && sudo apt-get install libqmi-utils udhcpc
 
 cd ~/sim7600gobi-main/
 cp start.sh ~/sim7600/start.sh
