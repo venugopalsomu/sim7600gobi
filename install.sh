@@ -1,5 +1,6 @@
 sudo apt-get update && sudo apt-get install libqmi-utils udhcpc
 
+mkdir ~/sim7600
 cd ~/sim7600gobi-main/
 cp start.sh ~/sim7600/start.sh
 cp simcom-cm ~/sim7600/simcom-cm
